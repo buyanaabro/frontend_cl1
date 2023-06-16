@@ -1,0 +1,19 @@
+extends ../_layout/default.pug
+
+block scripts
+  // Plugins and scripts required by this view
+  script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyASyYRBZmULmrmw_P9kgr7_266OhFNinPA')
+  script(src='js/google-maps.js')
+
+block breadcrumb
+  +breadcrumb(['Home', 'Plugins'], 'Google Maps')
+
+block view
+  .card.mb-4
+    .card-header
+      | Google Maps
+      a.badge.bg-danger-gradient.ms-2.text-decoration-none(href='https://coreui.io/pro/') CoreUI Pro Integration
+    .card-body
+      +example('https://developers.google.com/maps/documentation/javascript/overview')
+        #map(style='height:560px;')
+        
