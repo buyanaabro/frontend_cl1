@@ -101,6 +101,7 @@
     "eslint": "^8.24.0",
     "eslint-config-xo": "^0.42.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-unicorn": "^44.0.0",
     "find-unused-sass-variables": "^4.0.5",
     "foreach-cli": "^1.8.1",
